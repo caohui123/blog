@@ -2,12 +2,13 @@
 title: 如何 clone git 项目到一个非空目录
 date: 2016-07-17 23:33:16
 tags: git
+categories: git
 ---
 
 如果我们往一个非空的目录下 clone git 项目，就会提示错误信息：
 
 fatal: destination path '.' already exists and is not an empty directory.
-
+<!-- more --> 
 解决的办法是：
 
 ``` bash

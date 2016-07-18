@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一亩三分地
-subtitle:
-description: php symfony2 yii2 yaf  
+title: Sunny's notes   #网站标题
+subtitle: 天下事有难易乎？为之，则难者亦易矣；不为，则易者亦难矣。   #网站副标题
+description: 天下事有难易乎？为之，则难者亦易矣；不为，则易者亦难矣。   #网站描述
 author: Cao hui
 language: zh-Hans
 timezone: Asia/Hong_Kong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.caohui.tk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -138,11 +138,11 @@ qiniu:
 
 menu:
   home: /
-  archives: /文章
-  #about: /关于我
-  #categories: /分类
-  tags: /标签
-  #commonweal: /404.html
+  archives: /archives
+  about: /about
+  categories: /categories
+  tags: /tags
+  commonweal: /404.html
 
 menu_icons:
   enable: true
@@ -154,5 +154,32 @@ menu_icons:
   archives: archive
   commonweal: heartbeat
 
+# Social links
+social:
+  GitHub: https://github.com/caohui123
+  # 等等
+# Social Icons
+social_icons:
+  enable: true
+  # Icon Mappings
+  GitHub: github
+
+# title
+links_title: Links
+links:
+  MacTalk: http://macshuo.com/
+  Title: http://example.com/
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /images/pay/wechat.png
+alipay: /images/pay/alipay.png
+
 duoshuo_shortname: caohui-blog
-duoshuo_share: true
+#duoshuo_share: true
+jiathis: true
+
+
+leancloud_visitors:
+  enable: true
+  app_id: JuFfKYCYAoBclq1OC8fAyp0P-gzGzoHsz
+  app_key: Pm0nzPG787kRxWjH83OP7BvS
