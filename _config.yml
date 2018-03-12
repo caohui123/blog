@@ -91,9 +91,9 @@ scheme: Pisces
 ## Docs: https://hexo.io/docs/deployment.html
 
 deploy:
-- type: git
-  repo: git@git.coding.net:caohui/caohui.git
-  branch: master
+#- type: git
+#  repo: git@git.coding.net:caohui/caohui.git
+#  branch: master
 - type: git
   repo: git@github.com:caohui123/caohui123.github.io.git
   branch: master
