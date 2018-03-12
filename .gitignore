@@ -4,6 +4,5 @@ db.json
 *.log
 node_modules/
 public/
-.idea/
 .deploy*/
-package-lock.json
+yarn.lock
